@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0983ae0-be06-4797-ae22-767de4d09658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Pesquisa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FlippyBird.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bird1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bird2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/bird3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/pipe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlippyBird.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlippyBird.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/juliano.ambrosio/PycharmProjects/Pesquisa"
   }
 }]]></component>
