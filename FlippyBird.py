@@ -1,6 +1,13 @@
 import pygame
 import os
 import random
+import neat
+
+#permite que eu jogue e a ia jogue também
+ai_jogando = True
+geracao = 0
+
+
 
 #definindo constante
 TELA_LARGURA = 500
@@ -179,12 +186,27 @@ def desenhar_tela(tela, passaros, canos, chao, pontos):
 
     texto = FONTE_PONTOS.render(f"Pontuação: {pontos}", 1, (255, 255, 255))
     tela.blit(texto, (TELA_LARGURA - 10 - texto.get_width(), 10))
+
+    #só exibe se for a IA jogando
+    if ai_jogando:
+        texto = FONTE_PONTOS.render(f"Geracao: {geracao}", 1, (255, 255, 255))
+        tela.blit(texto, (10,10))
+
     chao.desenhar(tela)
     pygame.display.update()
 
 
 #criando a logica do jogo
 def main():
+
+    #aumenta uma geracao a cada vez que a funcao for executada
+    global geracao
+    geracao += 1
+
+    if ai_jogando:
+        pass    #cria varios passaros
+    
+
     passaros = [Passaro(230, 350)]
     chao = Chao(730)
     canos = [Cano(700)]

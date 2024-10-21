@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0983ae0-be06-4797-ae22-767de4d09658" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Configuracao da I.A NEAT [Projeto Flappy Bird].txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FlippyBird.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlippyBird.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
