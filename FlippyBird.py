@@ -197,17 +197,24 @@ def desenhar_tela(tela, passaros, canos, chao, pontos):
 
 
 #criando a logica do jogo
-def main():
+def main(genomas, config): #fitness function (o quão bem o passaro foi)
 
     #aumenta uma geracao a cada vez que a funcao for executada
     global geracao
     geracao += 1
 
     if ai_jogando:
-        #
-        redes = []
-        ta_genomas = []
+        #As lista estarão conversando conforme o indice | o primeiro passaro ira correspoder ao primeiro genoma que corresponde a primeira rede neural etc...
+        redes = []                      #rede neural em si
+        lista_genomas = []                 #config da rede neural
         passaros = []
+        for _, genoma in genomas:
+            rede = neat.nn.FeedForwardNetwork.create(genoma, config)                    #criando rede neural
+            rede.append(rede)
+            genoma.fitness = 0                      #pontuação interna do passaro, independente da pontuação do jogo
+            lista_genomas.append(genoma)
+            passaros.append((230, 350))
+
     else:
         passaros = [Passaro(230, 350)]
 
@@ -227,10 +234,15 @@ def main():
                 rodando = False
                 pygame.quit()
                 quit()
-            if evento.type == pygame.KEYDOWN:
-                if evento.key == pygame.K_SPACE:
-                    for passaro in passaros:
-                        passaro.pular()
+
+            #modificação necessaria para se a IA não estiver jogando a tecla espaço funcionar
+            if not ai_jogando:
+                if evento.type == pygame.KEYDOWN:
+                    if evento.key == pygame.K_SPACE:
+                        for passaro in passaros:
+                            passaro.pular()
+            else:
+                pass
 
         # mover as coisas
         for passaro in passaros:
@@ -262,6 +274,9 @@ def main():
 
         desenhar_tela(tela, passaros, canos, chao, pontos)
 
+#roda a IA
+def rodar():
+    pass
 #Executando a funcao principal
 if __name__ == '__main__':
     main()
