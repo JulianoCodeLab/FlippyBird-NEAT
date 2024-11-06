@@ -7,6 +7,7 @@ import neat
 ai_jogando = True
 geracao = 0
 
+
 # definindo constante
 TELA_LARGURA = 500
 TELA_ALTURA = 800
@@ -51,6 +52,7 @@ class Passaro:
         # calcular o deslocamento
         self.tempo += 1
         deslocamento = 1.5 * (self.tempo ** 2) + self.velocidade * self.tempo
+
 
         # restringir o deslocamento
         if deslocamento > 16:
@@ -124,6 +126,7 @@ class Cano:
     def mover(self):
         self.x -= self.VELOCIDADE
 
+
     def desenhar(self, tela):
         tela.blit(self.CANO_TOPO, (self.x, self.pos_topo))
         tela.blit(self.CANO_BASE, (self.x, self.pos_base))
@@ -143,6 +146,8 @@ class Cano:
             return True
         else:
             return False
+
+
 
 # Criando obstaculo chão
 class Chao:

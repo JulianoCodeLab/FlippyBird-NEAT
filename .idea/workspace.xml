@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0983ae0-be06-4797-ae22-767de4d09658" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuracao da I.A NEAT [Projeto Flappy Bird].txt" beforeDir="false" afterPath="$PROJECT_DIR$/Config-I.A-NEAT.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FlippyBird.py" beforeDir="false" afterPath="$PROJECT_DIR$/FlippyBird.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +32,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.FlappyBird-bkp.executor": "Run",
-    "Python.FlippyBird.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/juliano.ambrosio/PycharmProjects/Pesquisa"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.FlappyBird-bkp.executor&quot;: &quot;Run&quot;,
+    &quot;Python.FlippyBird.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/juliano.ambrosio/IdeaProjects/Analise-de-dados&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\juliano.ambrosio\PycharmProjects\Pesquisa" />
